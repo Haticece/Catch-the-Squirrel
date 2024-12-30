@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+#game-area {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #d0e7f9;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#squirrel {
+    width: 50px;
+    height: 50px;
+    background-image: url('images.png'); /* Sincap kafası görseli */
+    background-size: cover;
+    position: absolute;
+    top: 200px; /* Başlangıç pozisyonu */
+    left: 200px; /* Başlangıç pozisyonu */
+    cursor: pointer;
+    animation: bounce 0.5s infinite; /* Sincap kafası sürekli zıplar */
+    transition: top 0.3s ease, left 0.3s ease; /* Hareket ederken yumuşak geçiş */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+#timer {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
