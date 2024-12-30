@@ -31,7 +31,7 @@ Oyun, saf HTML, CSS ve JavaScript kullanılarak geliştirilmiştir. Herhangi bir
 1.  Bu depoyu klonlayın:
 
     ```bash
-    git clone [geçersiz URL kaldırıldı]
+    git clone https://github.com/Haticece/Catch-the-Squirrel
     ```
 
 2.  Dizine gidin:
